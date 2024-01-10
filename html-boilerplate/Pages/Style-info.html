@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> CSS Style Examples </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        c { 
+            background-color: aquamarine;
+            color: green;
+            font-size: 18px;
+        }
+
+        d {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> The many ways to style a webpage </h1>
+    <p> One of the simplest and easiest ways of styling a website is using CSS, to do so, a css styletype file must be created. From here there are many different ways that the 
+        text can be styled, as shown below. </p>
+    <p> <a href="../index.html"> Click Here</a> To return to the homepage.</p>
+    
+        <h3> Highlighting </h3>
+        <p> There are many different colors and style choices we can make when highlighting text, see below: </p>
+        <ul>
+            <li> <div id="red-background"> A Red Highlight </div></li>
+            <li><div id="orange-background">A Orange Highlight</div></li>
+            <li><div id="yellow-background">A Yellow Highlight</div></li>
+            <li><div id="green-background">A Green Highlight</div></li>
+            <li><div id="blue-background">A Blue Highlight</div></li>
+            <li><div id="purple-background">A Purple Highlight</div></li>
+            <li><div id="pink-background">A Pink Highlight</div></li>
+            <li><div id="black-background">A Black Highlight</div></li>
+            <li><div id="white-background">A White Highlight</div></li>
+        </ul>
+
+        <h3> Text Color </h3>
+        <p> We can also color the text directly, using the color function:</p>
+        <ul>
+            <li><div id="red-text"> Some Red Text</div></li>
+            <li><div id="orange-text"> Some Orange Text</div></li>
+            <li><div id="yellow-text"> <d>Some Yellow Text</d></div></li>
+            <li><div id="green-text"> Some Green Text</div></li>
+            <li><div id="blue-text"> Some Blue Text</div></li>
+            <li><div id="purple-text"> Some Purple Text</div></li>
+            <li><div id="pink-text"> Some Pink Text</div></li>
+            <li><div id="black-text"> Some Black Text</div></li>
+            <li><div id="white-text"> <d>Some White Text</d></div></li>
+        </ul>
+
+        <h3>Different Methods</h3>
+        <p> All of the above examples have been done via and external, id linking method, there are 2 other very simple methods you can also use </p>
+        <p> We can also call this id linking method the class id selector method, it makes it easy to stylise specific elements without stylising the entire page within the css file.</p>
+        
+        <h3> Internal Method </h3>
+        <p> <c> This is styled using the internal method located in the header of the code. </c></p>
+
+        <h3> Inline Method </h3>
+        <p> The inline method works as such that <button style="background-color: red; font-size: 18px; border-color: red;"> this is styled inline</button>.</p>
+
+        <h3> Grouping selectors</h3>
+        <p> If we want to have two elements that share properties but have some different elements, instead of writing out the same elements for everything each time, we can group these similar elements, like so:</p>
+        <button class="Type-A"> Style 1 </button>
+        <button class="Type-B"> Style 2 </button>
+        <p> We can see that both styles share the same font size and color, but have different background colors, this is the benefit of grouping selectors. </p>
+
+        <h3> Decendant selectors</h3>
+        <p> we can also select a specific set of lines to be styled, depending on whether the text follows is contained within a div or not. for example:</p>
+        <div class="styled">
+            <p> This should be styled.</p>
+        </div>
+        <p style="text-align: center;">  Whilst this should not. </button> </p>
+        <div class="styled">
+            <p> This should also be styled.</p>
+        </div>
+
+        <h3> Cascading Selectors </h3>
+        <p> When using multiple selectors in html, and stylising it in css, the rule that is the most specific in css will be the one that shows up when the website is published.</p>
+        <p> An additional rule, is that ID selectors will always take superiority over class selectors due to the specificity of an ID selector.</p>
+        <p> If specificity is the same across the board; class, ID, descendant and child selectors, then the last defined rule will be the one presented in the webpage.</p>
+
+        <h3> Image Re-sizing </h3>
+        <p> Image resizing is very helpful, we can change just one value and leave the other at its original or automatic value using the auto function, or we can resize both values.</p>
+        <img class="proportioned" src="../placeholder.gif" alt="Proportioned placeholder">
+        <img class="distorted" src="../placeholder.gif" alt="Distorted Placeholder">
+    
+    </body>
+</html>

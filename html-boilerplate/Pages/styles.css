@@ -1,0 +1,118 @@
+* {
+    border: 2px solid red;
+}
+
+
+#red-background {
+    background-color: red;
+    color: white;   
+}
+
+#orange-background {
+    background-color: orange;
+    color: black; 
+}
+
+#yellow-background {
+    background-color: yellow;
+    color: black;
+}
+
+#green-background {
+    background-color: green;
+    color: white;
+}
+
+#blue-background {
+    background-color: blue;
+    color:white
+}
+
+#purple-background {
+    background-color: purple;
+    color:white
+}
+
+#pink-background {
+    background-color: pink;
+    color: black;
+}
+
+#black-background {
+    background-color: black;
+    color: white;
+}
+
+#white-background {
+    background-color: white;
+    color: black;
+}
+
+#red-text {
+    color: red;
+}
+
+#orange-text {
+    color: orange;
+}
+
+#yellow-text {
+    color:yellow;
+}
+
+#green-text {
+    color: green;
+}
+
+#blue-text {
+    color: blue;
+}
+
+#purple-text {
+    color: purple;
+}
+
+#pink-text {
+    color: pink;
+}
+
+#black-text {
+    color: black;
+}
+
+#white-text {
+    color: white;
+}
+
+.Type-A,
+.Type-B {
+    font-family: Arial, "Helvetica", sans-serif;
+    font-size: 28px;
+}
+
+.Type-A { 
+    background-color: red;
+    color: black;
+}
+
+.Type-B { 
+    background-color: green;
+    color: black;
+}
+
+.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+.styled {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
