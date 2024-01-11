@@ -1,14 +1,16 @@
+* {
+    background-color: #C7CBDC;
+}
+
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
 div {
     padding: 20px;
     text-align: center;
     margin-top: 10px;
-    color: white;
-}
-
-button {
-    height: auto;
-    width: max-content;
-    text-align: center;
     color: white;
 }
 
@@ -24,6 +26,19 @@ button {
     background-color: #356370;
 }
 
+.container {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: auto;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
 /* 
 Other possible colors to use, in order, for future tabs:
 - #3B7266
