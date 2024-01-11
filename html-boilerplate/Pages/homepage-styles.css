@@ -1,0 +1,35 @@
+div {
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+button {
+    height: auto;
+    width: max-content;
+    text-align: center;
+    color: white;
+}
+
+.html {
+    background-color: #2B4584;
+}
+
+.css {
+    background-color: #30547A;
+}
+
+.recipes {
+    background-color: #356370;
+}
+
+/* 
+Other possible colors to use, in order, for future tabs:
+- #3B7266
+- #40805C
+- #458F52
+- #4A9E48
+*/
+
+
