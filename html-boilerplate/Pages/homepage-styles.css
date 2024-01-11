@@ -3,8 +3,10 @@
 }
 
 body {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 div {
@@ -12,39 +14,81 @@ div {
     text-align: center;
     margin-top: 10px;
     color: white;
+    justify-content:top;
 }
 
 .html {
-    background-color: #2B4584;
+    background-color: #2B4584ff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 0px;
+    height: auto;
 }
 
 .css {
-    background-color: #30547A;
+    background-color: #2C4882ff;
+    margin-top: 0px;
+    border-top: 0px;
+    height: auto;
+    margin-bottom: 0px;
 }
 
 .recipes {
-    background-color: #356370;
+    background-color: #2D4B80ff;
+    margin-top: 0px;
+    border-top: 0px;
+    height: auto;
+    margin-bottom: 0px;
 }
 
 .container {
-    height: 360px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    padding: 0px;
+    align-content:flex-start;
 }
 
 .item {
     width: auto;
     height: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
     
-/* 
-Other possible colors to use, in order, for future tabs:
-- #3B7266
-- #40805C
-- #458F52
-- #4A9E48
+/* CSS HEX 
+https://coolors.co/gradient-palette/2b4584-4a9e48?number=30
+--marian-blue: #2B4584ff; --USED--
+--marian-blue-2: #2C4882ff; --USED--
+--yinmn-blue: #2D4B80ff; --USED--
+--yinmn-blue-2: #2E4E7Eff;
+--yinmn-blue-3: #2F517Cff;
+--yinmn-blue-4: #30547Aff;
+--yinmn-blue-5: #315778ff;
+--lapis-lazuli: #325A76ff;
+--paynes-gray: #345E73ff;
+--paynes-gray-2: #356171ff;
+--paynes-gray-3: #36646Fff;
+--caribbean-current: #37676Dff;
+--caribbean-current-2: #386A6Bff;
+--myrtle-green: #396D69ff;
+--myrtle-green-2: #3A7067ff;
+--hookers-green: #3B7365ff;
+--hookers-green-2: #3C7663ff;
+--viridian: #3D7961ff;
+--viridian-2: #3E7C5Fff;
+--viridian-3: #3F7F5Dff;
+--sea-green: #40825Bff;
+--sea-green-2: #418559ff;
+--sea-green-3: #438956ff;
+--sea-green-4: #448C54ff;
+--sea-green-5: #458F52ff;
+--sea-green-6: #469250ff;
+--sea-green-7: #47954Eff;
+--pigment-green: #48984Cff;
+--pigment-green-2: #499B4Aff;
+--pigment-green-3: #4A9E48ff;
 */
 
 
