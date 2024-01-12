@@ -1,0 +1,36 @@
+ body {
+    padding: 0;
+ }
+
+ nav {
+    padding: 12px;
+    border-bottom: 1px dotted black;
+ }
+
+ ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0;
+ }
+
+ li .logo {
+    margin-right: auto;
+ }
+
+ ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.875rem;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ .logo a{
+    font-size: 1.125rem;
+    font-weight: 500;
+ }
